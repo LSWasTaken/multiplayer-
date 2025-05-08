@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { saveScore, getLeaderboard } from '../firebase'; // Updated path
+import { saveScore, getLeaderboard } from '../firebase'; // Confirm this path
 import Head from 'next/head';
 
 export default function Home() {
